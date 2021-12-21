@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 20px;
+}
+
 .container {
     width: 70%;
     margin: 3rem auto;
@@ -20,5 +24,18 @@ h2 {
 }
 
 p {
-    margin: 1rem 0;
+    margin: 2rem 0;
+}
+
+ol {
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+ol ul li {
+    list-style-type: lower-alpha;
+}
+
+li {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
 }
