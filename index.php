@@ -75,7 +75,7 @@
                     // get each sub array
                     $faq = $faqArr[$i];
                     echo "<h2>" . $faq['question'] . "</h2>";
-                    // check if there is an answre
+                    // check if there is an answer
                     if(array_key_exists('answers', $faq)) {
                         // get straight-forword answers
                         for ($j = 0; $j < count($faq['answers']); $j++) { 
